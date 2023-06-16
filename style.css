@@ -1,0 +1,236 @@
+.bg1{
+    background-image: url(images/cover_1.jpg );
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    margin-bottom: 5%;
+    z-index: 1;
+
+}
+/* .aos-animate{
+    opacity: 1;
+    transform: translateZ(0);
+} */
+.divider{
+width: 70px;
+height: 5px;
+background:linear-gradient(to right,#00e0fe,#1107fe );
+margin: 16px auto;
+
+}
+h1{
+    font-weight: 900;
+}
+
+.service-img {
+    position: relative;
+}
+.icon{
+    width: 70px;
+    height:70px;
+    background: linear-gradient(to right,#00e0fe,#1107fe);
+    color: #fff;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.icon i{
+    font-size: 36px;
+}
+.services { 
+    text-align: center;
+}
+.service{
+    margin-bottom: 5%;
+}
+.watch {
+    background-image: url(images/cover_3.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    margin-bottom: 5%;
+    z-index: 1;
+    position: relative;
+}
+.content {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    z-index: 2;
+    position: relative;
+}
+.video-btn i{
+    font-size: 32px;
+} 
+.video-btn{
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(to right,#00e0fe, #1107fe);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 100%;
+}
+.Feature i {
+    font-size: 54px;
+    color: #1107fe;
+}
+.Features {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.bg-cover {
+    background-image: url(images/cover_2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    z-index: 1;
+    position: relative;
+
+}
+.reviews{
+    padding-top: 80px;
+}
+.review {
+    box-shadow: 0 12px 12px rgba(0,0,0,0.1);
+}
+.p-4 {
+    padding: 1.5rem;
+}
+.review .person {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.07);
+    padding-bottom: 18px;
+}
+.review .person img{
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+}
+.mb-0 {
+    margin-bottom: 0;
+}
+.review .stars{
+    color: orange;
+}
+.align-items-start {
+    text-align: left;
+}
+/* /* img{
+    width:320px;
+    height:123px;
+} */
+.blog {
+    padding-top: 80px;
+}
+.blog a{
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
+} 
+.blog a:hover{
+    color: #1107fe;
+}
+/* .mt-4{
+    text-align: left;
+}  */
+.touch {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    z-index: 1;
+    position: relative;
+}
+.touch {
+    background-image: url(images/cover_3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* .btn-main{
+    background: linear-gradient(to right,#00e0fe, #1107fe);
+    border-radius: 100px;
+    border: none;
+    font-weight: 600;
+    color: #fff;
+}
+.btn{
+    padding: 14px 22px;
+} */
+
+form input.form-control{
+    height: 54px;
+}
+form .form-control{
+    border-radius: 0;
+    background: transparent;
+    /* background-color: rgba(255, 255, 255, 0.5); */
+}
+
+.form-control{
+    display: block;
+    width: 100%;
+}
+
+
+form .form-control::placeholder {
+    font-weight: bold;
+    color: #fff;
+}
+
+
+footer{
+    background: linear-gradient(to right,#00e0fe, #1107fe);
+    color: #fff;
+}
+footer a{
+    color: white;
+}
+.blur {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(20, 158, 250, 0.8),rgb(13, 94, 235,0.8));
+    z-index: -1;
+}
+.nav-link.active{
+    color: blue !important;
+}
+
+.rounded-pill{
+    background: linear-gradient(rgba(20, 158, 250, 0.8),rgb(13, 94, 235,0.8));     
+}
+.btn1{
+    width: 140px;
+    background: linear-gradient(to right,#00e0fe, #1107fe);
+    color: #fff !important;
+
+}
+
+@media(max-width:450px){
+    .bg1{
+        height: 130vh;
+    }
+    .blog-img{
+        margin-top: 50px !important;
+    }
+    .serv-img{
+        margin-top: 50px !important;
+    }
+
+}
+/* some css not work when use bootstrap.so we add !important to css */
+
+.blog1{
+background-color: rgb(244, 243, 243);
+}
